@@ -9,13 +9,15 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--special-dark-grey);
 }
 
 .container__fluid{
-    max-width: 1330px;
+    max-width: 1420px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -30,7 +32,7 @@ button{
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1240px;
     padding: 0 10px;
     margin: 0 auto;
 }
