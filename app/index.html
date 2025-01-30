@@ -19,7 +19,7 @@
 
                 <nav class="menu">
                     <ul class="menu-list">
-                        <li class="menu-list__item"><a href="" class="menu-list__link">главная</a></li>
+                        <li class="menu-list__item active"><a href="" class="menu-list__link">главная</a></li>
                         <li class="menu-list__item"><a href="" class="menu-list__link">Каталог продукции</a></li>
                         <li class="menu-list__item">подбор программы<a href="" class="menu-list__link"></a></li>
                     </ul>
@@ -45,7 +45,10 @@
             <div class="goals__items">
                 <div class="goals-item">
                     <div class="goals-item__head">
-                        <img src="images/goal1.svg" alt="" class="goals-item__img">
+                        <div class="goals-item__img">
+                            <img src="images/goal1.svg" alt="">
+                        </div>
+                        
                         <h6 class="goals-item__title">похудение</h6>
                     </div>                    
                     <p class="goals-item__descr">Ваш кот весит больше собаки и почти утратил способность 
@@ -55,7 +58,9 @@
                 </div>
                 <div class="goals-item">
                     <div class="goals-item__head">
-                        <img src="images/goal2.svg" alt="" class="goals-item__img">
+                        <div class="goals-item__img">
+                            <img src="images/goal2.svg" alt="">
+                        </div>
                         <h6 class="goals-item__title">набор массы</h6>
                     </div>
                     <p class="goals-item__descr">Заработать авторитет среди дворовых котов и даже собак?
@@ -105,67 +110,81 @@
     </section>
 
     <section class="example">
-        <div class="container">
-            <h2 class="section-title example__title">Живой пример</h2>
-
-            <div class="example__inner">
-                <div class="example-info">
-                    <p class="example-info__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой 
-                        обычный корм на Cat Energy Slim. Отличный результат 
-                        без изнуряющих тренировок! При этом он не менял своих 
-                        привычек и по-прежнему спит по 16 часов в день. </p>
-                    <div class="example-info__numbers">
-                        <div class="example-info__numbers-item">
-                            <h6 class="example-info__numbers-title">5 КГ</h6>
-                            <p class="example-info__numbers-text">снижение веса</p>
-                        </div>
-                        <div class="example-info__numbers-item">
-                            <h6 class="example-info__numbers-title">60 ДНЕЙ</h6>
-                            <p class="example-info__numbers-text">затрачено времени</p>
-                        </div>
-                    </div>
-
-                    <div class="example-info__amount">
-                        <h6 class="example-info__amount-title">Затраты на питание: </h6>
-                        <p class="example-info__amount-text">15 000 РУБ.</p>
-                    </div>
-                </div>
-
-                <div class="example-slider"><img src="images/slider.png" alt="" class="example-slider__img"></div>
+        <div class="example-top">
+            <div class="container">
+                <h2 class="example__title section-title">Живой пример</h2>
             </div>
         </div>
+
+        <div class="example-content">
+            <div class="container">
+                <div class="example__inner">
+                    <div class="example-info">
+                        <p class="example-info__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой 
+                            обычный корм на Cat Energy Slim. Отличный результат 
+                            без изнуряющих тренировок! При этом он не менял своих 
+                            привычек и по-прежнему спит по 16 часов в день. </p>
+                        <div class="example-info__numbers">
+                            <div class="example-info__numbers-item">
+                                <h6 class="example-info__numbers-title">5 КГ</h6>
+                                <p class="example-info__numbers-text">снижение веса</p>
+                            </div>
+                            <div class="example-info__numbers-item">
+                                <h6 class="example-info__numbers-title">60 ДНЕЙ</h6>
+                                <p class="example-info__numbers-text">затрачено времени</p>
+                            </div>
+                        </div>
+    
+                        <div class="example-info__amount">
+                            <h6 class="example-info__amount-title">Затраты на питание: </h6>
+                            <p class="example-info__amount-text">15 000 РУБ.</p>
+                        </div>
+                    </div>
+    
+                    <div class="example-slider"><img src="images/slider.png" alt="" class="example-slider__img"></div>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
     <div class="map">
         <div class="container-fluid">
-            <div class="map-info">
-                <h6 class="map-info__title"></h6>
-                <div>
-                    <p class="map-info__text">ул. Большая 
-                        Конюшенная, д. 19/8</p>
-                    <p class="map-info__text">Санкт-Петербург</p>
+            <div class="map__inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3997.2072514395286!2d30.317897555855684!3d59.938719162094465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2sby!4v1738262517771!5m2!1sen!2sby" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="map-info">
+                    <h6 class="map-info__title">приглашаем 
+                        к сотрудничеству 
+                        дилеров!</h6>
+                    <div>
+                        <p class="map-info__text">ул. Большая 
+                            Конюшенная, д. 19/8</p>
+                        <p class="map-info__text">Санкт-Петербург</p>
+                    </div>
+                    
                 </div>
-                
             </div>
+            
         </div>
     </div>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
+                <img src="images/footer-logo.svg" alt="" class="footer__img">
 
+                <ul class="social-list">
+                    <li class="social-list__item"><a href="" class="social-list__link"><img src="images/social/vk.svg" alt="" class="social-list__item-img"></a></li>
+    
+                    <li class="social-list__item"><a href="" class="social-list__link"><img src="images/social/inst.svg" alt="" class="social-list__item-img"></a></li>
+    
+                    <li class="social-list__item"><a href="" class="social-list__link"><img src="images/social/fb.svg" alt="" class="social-list__item-img"></a></li>
+                </ul>
+    
+                <img src="images/author.svg" alt="" class="author-img">
             </div>
-            <img src="" alt="" class="footer__img">
-
-            <ul class="social-list">
-                <li class="social-list__item"><a href="" class="social-list__link"><img src="images/social/vk.svg" alt="" class="social-list__item-img"></a></li>
-
-                <li class="social-list__item"><a href="" class="social-list__link"><img src="images/social/inst.svg" alt="" class="social-list__item-img"></a></li>
-
-                <li class="social-list__item"><a href="" class="social-list__link"><img src="images/social/fb.svg" alt="" class="social-list__item-img"></a></li>
-            </ul>
-
-            <img src="" alt="" class="author-img">
+            
         </div>
     </footer>
    
